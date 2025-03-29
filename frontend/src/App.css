@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.quote-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.quote-author h3 {
+  color: #555;
+  text-align: right;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: box-shadow 0.8s ease;
+}
+
+button:hover {
+  background: #202020;
+  transition: 500ms;
+  box-shadow: 
+    0 0 10px #dccaff,
+    0 0 15px #8d72f5,
+    0 0 30px #7809ff;
+}
+
+.toggle-buttons {
+  margin: 20px 0;
+}
+
+.toggle-buttons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-buttons button:hover {
+  background: #202020;
+}
+
